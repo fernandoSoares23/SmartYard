@@ -1,0 +1,199 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+
+body{
+    background-color: #fcfcfc;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 200vh;
+    overflow-x: hidden;
+    align-items: center;
+    align-self: center;
+    margin:0;
+    padding:0;
+}
+
+.container2{
+	height: 30%; 
+	width: 30%; 
+	flex-direction: row;
+  justify-content: center;
+}
+.container3{
+	height: 30%; 
+	width: 30%; 
+	flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container4{
+	height: 30%; 
+	width: 50%; 
+	flex-direction: row;
+  justify-content: center;
+}
+
+.container5{
+	height: 30%; 
+	width: 25%; 
+	flex-direction: row;
+  justify-content: center;
+}
+
+#blob{
+    width: 180px;
+    height: 180px;
+    background-color: #0094FF;
+    position: absolute;
+    z-index: -1;
+    filter: blur(120px);
+
+}
+.text2 {
+  font-size: 20;
+  color: black;
+}
+.container-perfil {
+  font-size: 10;
+  background-color: rgba(62, 189, 104, 0.43);
+  width: 75%;
+  justify-content: center;
+  height: 100%;
+  border-radius: 20px;
+  font-family: cursive;
+  
+}
+.per {
+
+  align-self: center; 
+  height: 75%;
+  width: 75%;
+  border-radius: 50%;
+  margin-right: 10%;
+  margin-left: 10%;
+  filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.384));
+}
+.noggers {
+  font-family: Raleway;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: .15em;
+  color: rgb(0, 0, 0);
+  position: relative;
+  z-index: 1;
+}
+
+.noggers::before {
+  background-color: rgb(62, 189, 104);
+  bottom: 7%;
+  content: "";
+  display: block;
+  height: 0.6em;
+  width: 12em;
+  left: -7%;
+  position: absolute;
+  z-index: -1;
+}
+
+.titlemvv {
+  font-family: Raleway;
+  letter-spacing: .15em;
+}
+
+<!---------------FOOTER---------------------->
+
+.bg {
+  background-color: rgb(62, 189, 104);
+}
+
+.paragraf {
+  text-align: justify;
+  color:white;
+  font-family: cursive;
+}
+
+.paragrafs {
+  color: rgb(8, 70, 0);
+  text-align: center;
+  font-family: cursive;
+}
+
+.top {
+  text-align: justify;
+  text-decoration: none;
+  color: white;
+  font-family: cursive;
+}
+
+.top:hover {
+  color: rgb(8, 70, 0);
+}
+
+.Nav-title {
+
+  font-family: cursive;
+  font-size: 20;
+  margin-left: 10%;
+
+}
+
+<!------------------NAV BAR----------------------------->
+
+.green
+{
+    background-color: #4caf4f;
+}
+div.containera
+{
+  font-family: Raleway;
+  margin: 0 auto;
+	text-align: center;
+  position: fixed;
+  z-index: 2;
+}
+
+div.containera a
+{
+    color: #020703;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+div.borderXwidth a:before, div.borderXwidth a:after
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #000000;
+    transition: all 0.3s;
+}
+
+div.borderXwidth a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderXwidth a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderXwidth a:hover:before, div.borderXwidth a:hover:after
+{
+    opacity: 1;
+    width: 100%;
+}
+
+
+
+
+
+
